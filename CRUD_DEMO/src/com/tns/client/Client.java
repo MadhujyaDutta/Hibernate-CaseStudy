@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	StudentService service = new StudentServiceImpl();
 	Student student = new Student();
 	 
-	     student.setStudentId(120);
+	     student.setStudentId(100);
          student.setName("Madhu");
          
          service.addStudent(student);

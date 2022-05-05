@@ -17,7 +17,7 @@ public class StudentDaoImpl implements StudentDao
 
 	@Override
 	public void addStudent(Student student) {
-		entityManager.persist(student);
+		entityManager.persist(student); //persist keyword means permanently storing something
 		
 	}
 

@@ -6,9 +6,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 @Entity
 @Table(name="students")
-public class Student implements Serializable {
+public class Student implements Serializable { //object conversion into stream byte
 	
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = 1L; //it is used when stream byte is deserialized 
 	@Id
 	private int studentId;
 	private String name;
